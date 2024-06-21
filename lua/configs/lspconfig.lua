@@ -38,7 +38,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 lspconfig.pyright.setup({})
-lspconfig.tsserver.setup{
+lspconfig.tsserver.setup {
 	on_attach = on_attach,
 	capabilities = capabilities,
 	init_options = {
@@ -54,5 +54,8 @@ lspconfig.tailwindcss.setup({})
 lspconfig.biome.setup({})
 lspconfig.eslint.setup({})
 lspconfig.unocss.setup({})
-lspconfig.markdown_oxide.setup({})
-
+lspconfig.lua_ls.setup({})
+lspconfig.html.setup({})
+lspconfig.tsserver.setup({})
+lspconfig.prettier.setup({})
+lspconfig.cssls.setup({})

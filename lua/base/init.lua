@@ -3,6 +3,10 @@
 vim.g.mapleader = " "
 vim.wo.relativenumber = true
 vim.wo.number = true
+vim.cmd("set expandtab")
+vim.cmd("set shiftwidth=2")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
